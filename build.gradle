@@ -20,3 +20,10 @@ dependencies {
 test {
     useTestNG()
 }
+
+task test_find_repo_ui(type: Test){
+    useTestNG();
+    if(project.hasProperty('repo')){
+        systemProperty 'repo', "${repo}"
+    }
+}

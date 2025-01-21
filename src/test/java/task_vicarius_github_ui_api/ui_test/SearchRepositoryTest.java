@@ -3,6 +3,8 @@ package task_vicarius_github_ui_api.ui_test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import task_vicarius_github_ui_api.pages.HomePage;
@@ -26,13 +28,19 @@ public class SearchRepositoryTest {
     }
 
     @Test
-    public void searchRepositoryTest(){
+    public void searchRepositoryTestUI(){
+        String repository;   //QA-45 - 200   PhoneBook - 89k   ios - 506k     git - 10.5M
+        repository = System.getProperty("repo","QA-45");
+        if(repository.isBlank())
+            Assert.fail("repository is blank");
         HomePage homePage = new HomePage(getDriver());
-        homePage.typeSearchForm("QA45");
+        homePage.typeSearchForm(repository.trim());
         SearchPage searchPage = new SearchPage(getDriver());
-        searchPage.verifySearchResults();
+        Assert.assertTrue(searchPage.verifySearchResults());
+    }
 
-
-
+    @AfterMethod
+    public void tearDown(){
+        //driver.quit();
     }
 }

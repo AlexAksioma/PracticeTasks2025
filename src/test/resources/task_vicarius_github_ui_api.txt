@@ -22,3 +22,8 @@ The assignment consists of two parts:
  as an argument.
  • Upload the code to GitHub, including a README with instructions on how to use
  your tests
+
+ command
+ ./gradlew clean test_find_repo_ui -Prepo=qa45
+ ./gradlew clean test_find_repo_ui -Prepo=
+

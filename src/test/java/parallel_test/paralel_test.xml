@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Testing Suite">
+    <test name = "Parallel Tests" parallel = "methods" thread-count = "3">
+        <classes>
+            <class name="parallel_test.Parallel"/>
+            <class name="task_vicarius_github_ui_api.api_test.SearchRepositoryTest"/>
+        </classes>
+        </test>
+</suite>

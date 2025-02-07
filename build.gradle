@@ -27,3 +27,9 @@ task test_find_repo_ui(type: Test){
         systemProperty 'repo', "${repo}"
     }
 }
+
+task paralel_task(type: Test){
+    useTestNG(){
+        suites 'src/test/java/parallel_test/paralel_test.xml'
+    }
+}

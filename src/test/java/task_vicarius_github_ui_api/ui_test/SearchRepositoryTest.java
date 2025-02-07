@@ -27,7 +27,7 @@ public class SearchRepositoryTest {
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     }
 
-    @Test
+    @Test()
     public void searchRepositoryTestUI(){
         String repository;   //QA-45 - 200   PhoneBook - 89k   ios - 506k     git - 10.5M
         repository = System.getProperty("repo","QA-45");

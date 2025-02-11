@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="created searchRepositoryTestUI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/StudentCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/StudentCheckAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/StudentMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parallel_test/Parallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parallel_test/paralel_test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task_vicarius_github_ui_api/api_test/SearchRepositoryTest.java" afterDir="false" />
+    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="lamda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional_interfaces/PredicateInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/task_vicarius_github_ui_api/ui_test/SearchRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task_vicarius_github_ui_api/ui_test/SearchRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/StudentMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/StudentMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +75,20 @@
       <recent name="task_vicarius_github_ui_api.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTest">
+  <component name="RunManager" selected="Application.PredicateInterface">
+    <configuration name="PredicateInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional_interfaces.PredicateInterface" />
+      <module name="PracticeTasks2025.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional_interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.StudentTest" />
       <module name="PracticeTasks2025.main" />
@@ -144,30 +150,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SearchRepositoryTest.searchRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;task_vicarius_github_ui_api.ui_test.SearchRepositoryTest.searchRepositoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="SearchRepositoryTest.searchRepositoryTestUI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateInterface" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Gradle.Parallel" />
         <item itemvalue="Gradle.SearchRepositoryTest.searchRepositoryTestUI" />
         <item itemvalue="Gradle.SearchRepositoryTest.searchRepoTest" />
-        <item itemvalue="Gradle.SearchRepositoryTest.searchRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,14 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737487715770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lamda">
+      <option name="closed" value="true" />
+      <created>1738922472060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738922472060</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="created searchRepositoryTestUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="created searchRepositoryTestUI" />
+    <MESSAGE value="lamda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lamda" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

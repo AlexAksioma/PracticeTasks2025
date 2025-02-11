@@ -1,6 +1,8 @@
 package lambda;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class StudentMethods {
     void checkStudent(ArrayList<Student> list, StudentCheck studentCheck) {
@@ -54,9 +56,9 @@ class StudentTest {
         System.out.println("=================================");
         studentMethods.printStudents(studentList, 20, 8.);
         System.out.println("==================================================");
-        StudentCheckAge studentCheckAge = new StudentCheckAge();
+        //StudentCheckAge studentCheckAge = new StudentCheckAge();
 
-
+//=======================================================================================================
         studentMethods.checkStudent(studentList, new StudentCheck() { //anonim class
             @Override
             public boolean check(Student s) {
@@ -99,5 +101,22 @@ class StudentTest {
                     }
                 }
         );
+
+        //========================new lesson ===============================================
+        System.out.println("========================new lesson ===============================================");
+//        Collections.sort(studentList, new Comparator<Student>() {
+//            @Override
+//            public int compare(Student s1, Student s2) {
+//                return s1.getAge() - s2.getAge();
+//            }
+//        });
+        Collections.sort(studentList, (s1, s2) -> s1.getAge() - s2.getAge());
+        for (Student s:studentList) {
+            System.out.println(s);
+        }
+        Collections.sort(studentList, (s1, s2) -> ((int)s1.getAverageGrade() - (int)s2.getAverageGrade()));
+        for (Student s:studentList) {
+            System.out.println(s);
+        }
     }
 }

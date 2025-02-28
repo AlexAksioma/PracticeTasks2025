@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="lamda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional_interfaces/PredicateInterface.java" afterDir="false" />
+    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="functional">
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/PersonComparatorByNameAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/PersonComparatorByWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/PersonMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/StudentMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/StudentMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AlexAksioma"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AlexAksioma/PracticeTasks2025.git",
+    "accountId": "c7a2fb1f-4257-43d7-b32b-1181a547cd89"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -56,26 +71,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/QA_Auto_Projects/QA_45/PracticeTasks2025&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.PracticeTasks2025 [:comparable_comparator.PersonMain.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/QA_Auto_Projects/QA_45/PracticeTasks2025",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="comparable_comparator" />
       <recent name="task_vicarius_github_ui_api.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredicateInterface">
+  <component name="RunManager" selected="Application.PersonMain">
+    <configuration name="ConsumerInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional_interfaces.ConsumerInterface" />
+      <module name="PracticeTasks2025.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional_interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional_interfaces.FunctionalInterface" />
+      <module name="PracticeTasks2025.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional_interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable_comparator.PersonMain" />
+      <module name="PracticeTasks2025.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparable_comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PredicateInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional_interfaces.PredicateInterface" />
       <module name="PracticeTasks2025.main" />
@@ -89,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.StudentTest" />
+    <configuration name="SupplierInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional_interfaces.SupplierInterface" />
       <module name="PracticeTasks2025.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="functional_interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,85 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parallel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;parallel_test.Parallel&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchRepositoryTest.searchRepoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;task_vicarius_github_ui_api.api_test.SearchRepositoryTest.searchRepoTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchRepositoryTest.searchRepositoryTestUI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;task_vicarius_github_ui_api.ui_test.SearchRepositoryTest.searchRepositoryTestUI&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonMain" />
+        <item itemvalue="Application.FunctionalInterface" />
+        <item itemvalue="Application.ConsumerInterface" />
+        <item itemvalue="Application.SupplierInterface" />
         <item itemvalue="Application.PredicateInterface" />
-        <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Gradle.Parallel" />
-        <item itemvalue="Gradle.SearchRepositoryTest.searchRepositoryTestUI" />
-        <item itemvalue="Gradle.SearchRepositoryTest.searchRepoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738922472060</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="functional">
+      <option name="closed" value="true" />
+      <created>1739301278073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739301278073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,7 +219,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="created searchRepositoryTestUI" />
     <MESSAGE value="lamda" />
-    <option name="LAST_COMMIT_MESSAGE" value="lamda" />
+    <MESSAGE value="functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="functional" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

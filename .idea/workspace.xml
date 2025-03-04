@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="functional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/PersonComparatorByNameAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/PersonComparatorByWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_comparator/PersonMain.java" afterDir="false" />
+    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="comparator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/JDBC_insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/SqlConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PracticeTasks2025" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -48,18 +53,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AlexAksioma"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlexAksioma&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AlexAksioma/PracticeTasks2025.git",
-    "accountId": "c7a2fb1f-4257-43d7-b32b-1181a547cd89"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AlexAksioma/PracticeTasks2025.git&quot;,
+    &quot;accountId&quot;: &quot;c7a2fb1f-4257-43d7-b32b-1181a547cd89&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -75,6 +80,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.PracticeTasks2025 [:comparable_comparator.PersonMain.main()].executor": "Run",
+    "Gradle.PracticeTasks2025 [:db.JDBC_insert.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -94,7 +100,7 @@
       <recent name="task_vicarius_github_ui_api.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonMain">
+  <component name="RunManager" selected="Application.JDBC_insert">
     <configuration name="ConsumerInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional_interfaces.ConsumerInterface" />
       <module name="PracticeTasks2025.main" />
@@ -121,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparable_comparator.PersonMain" />
+    <configuration name="JDBC_insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="db.JDBC_insert" />
       <module name="PracticeTasks2025.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comparable_comparator.*" />
+          <option name="PATTERN" value="db.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional_interfaces.PredicateInterface" />
+    <configuration name="PersonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable_comparator.PersonMain" />
       <module name="PracticeTasks2025.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional_interfaces.*" />
+          <option name="PATTERN" value="comparable_comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBC_insert" />
         <item itemvalue="Application.PersonMain" />
         <item itemvalue="Application.FunctionalInterface" />
         <item itemvalue="Application.ConsumerInterface" />
         <item itemvalue="Application.SupplierInterface" />
-        <item itemvalue="Application.PredicateInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739301278073</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="comparator">
+      <option name="closed" value="true" />
+      <created>1740737631505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740737631505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,7 +234,8 @@
     <MESSAGE value="created searchRepositoryTestUI" />
     <MESSAGE value="lamda" />
     <MESSAGE value="functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional" />
+    <MESSAGE value="comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="comparator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

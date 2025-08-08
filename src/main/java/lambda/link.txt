@@ -1,0 +1,2 @@
+https://javarush.com/groups/posts/6534-kofe-breyk-268-polnoe-rukovodstvo-po-ljambda-vihrazhenijam-v-java
+https://javarush.com/groups/posts/845-lambda-vihrazhenija-na-primerakh

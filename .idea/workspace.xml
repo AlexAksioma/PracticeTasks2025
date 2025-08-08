@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="comparator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/JDBC_insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/SqlConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/Student.java" afterDir="false" />
+    <list default="true" id="4f2dcaa1-3ffa-4315-885f-79ee82a6783f" name="Changes" comment="sql">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ajax_element/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ajax_element/PrimerAjax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks_coding/Anagramm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks_coding/Duplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks_coding/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ajax_element_tests/PrimerAjaxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task_vicarius_github_ui_api/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_vicarius_github_ui_api/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +85,15 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.PracticeTasks2025 [:comparable_comparator.PersonMain.main()].executor": "Run",
     "Gradle.PracticeTasks2025 [:db.JDBC_insert.main()].executor": "Run",
+    "Gradle.PracticeTasks2025 [:db.JDBC_select.main()].executor": "Run",
+    "Gradle.PracticeTasks2025 [:db.JDBC_update.main()].executor": "Run",
+    "Gradle.PracticeTasks2025 [:tasks_coding.Anagramm.main()].executor": "Run",
+    "Gradle.PracticeTasks2025 [:tasks_coding.Duplicates.main()].executor": "Run",
+    "Gradle.PracticeTasks2025 [:tasks_coding.Palindrome.main()].executor": "Run",
+    "Gradle.PrimerAjaxTest.searchRepositoryTestUI.executor": "Run",
+    "Gradle.PrimerAjaxTest.searchRepositoryTestUIAjax.executor": "Run",
+    "Gradle.SearchRepositoryTest.searchRepoTest.executor": "Run",
+    "Gradle.SearchRepositoryTest.searchRepositoryTestUI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -96,17 +109,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ajax_element" />
       <recent name="comparable_comparator" />
       <recent name="task_vicarius_github_ui_api.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBC_insert">
-    <configuration name="ConsumerInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional_interfaces.ConsumerInterface" />
+  <component name="RunManager" selected="Application.Anagramm">
+    <configuration name="Anagramm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks_coding.Anagramm" />
       <module name="PracticeTasks2025.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional_interfaces.*" />
+          <option name="PATTERN" value="tasks_coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional_interfaces.FunctionalInterface" />
+    <configuration name="Duplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks_coding.Duplicates" />
       <module name="PracticeTasks2025.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional_interfaces.*" />
+          <option name="PATTERN" value="tasks_coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBC_insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="db.JDBC_insert" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks_coding.Palindrome" />
       <module name="PracticeTasks2025.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.*" />
+          <option name="PATTERN" value="tasks_coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,39 +154,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparable_comparator.PersonMain" />
-      <module name="PracticeTasks2025.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comparable_comparator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PrimerAjaxTest.searchRepositoryTestUI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ajax_element_tests.PrimerAjaxTest.searchRepositoryTestUI&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="SupplierInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional_interfaces.SupplierInterface" />
-      <module name="PracticeTasks2025.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional_interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PrimerAjaxTest.searchRepositoryTestUIAjax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ajax_element_tests.PrimerAjaxTest.searchRepositoryTestUIAjax&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JDBC_insert" />
-        <item itemvalue="Application.PersonMain" />
-        <item itemvalue="Application.FunctionalInterface" />
-        <item itemvalue="Application.ConsumerInterface" />
-        <item itemvalue="Application.SupplierInterface" />
+        <item itemvalue="Application.Anagramm" />
+        <item itemvalue="Application.Duplicates" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Gradle.PrimerAjaxTest.searchRepositoryTestUI" />
+        <item itemvalue="Gradle.PrimerAjaxTest.searchRepositoryTestUIAjax" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740737631505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sql">
+      <option name="closed" value="true" />
+      <created>1741116514446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741116514446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,7 +279,8 @@
     <MESSAGE value="lamda" />
     <MESSAGE value="functional" />
     <MESSAGE value="comparator" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparator" />
+    <MESSAGE value="sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
